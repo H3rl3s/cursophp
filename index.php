@@ -1,71 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Formulário</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<style type="text/css">
-		
-		#tamanhoContainer {
-			width: 500px;
-		}
-		#botao {
-			background-color: #FF1168;
-			color: #ffffff;
-			font-weight: bold;
-		}
-	</style>
-	
+	<title>Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-<script type="text/javascript" src="js/bootstrap.js"></script>
 
-<div class="container" id="tamanhoContainer" style="margin-top: 40px">
-	<h4 >Formulário de Cadastro</h4>
-<form action="_inserir_produto.php" method="post" style="margin-top: 25px">
-  <div class="form-group">
-	    <label> Nro Produto </label>
-	    <input type="number" name="nroproduto" class="form-control" placeholder="Insira o numero do produto" required autocomplete="off">
+<div class="container" style="margin-top: 100px">
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Adicionar Produto</h5>
+        <p class="card-text">Adicionar produto no estoque.</p>
+        <a href="adicionar_produto.php" class="btn btn-primary">Adicionar</a>
+      </div>
+    </div>
   </div>
-
-  <div class="form-group">
-	    <label> Nome do Produto </label>
-	    <input type="text" name="nomeproduto" class="form-control" placeholder="Insira o nome do produto" required autocomplete="off">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Lista de Produtos</h5>
+        <p class="card-text">Verificação de Produtos.</p>
+        <a href="listaprodutos.php" class="btn btn-primary">Listar Protudos</a>
+      </div>
+    </div>
   </div>
+</div>
+</div>
 
-  <div class="form-group">
-    <label> Categoria </label>
-    <select name="categoria" class="form-control">
-      <option>Periférico</option>
-      <option>Hardware</option>
-      <option>Software</option>
-      <option>Celulares</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-	    <label> Quantidade </label>
-	    <input type="number" name="quantidade" class="form-control" placeholder="Insira a quantidade do produto" required autocomplete="off">
-  </div>
-
-  <div class="form-group">
-    <label> Fornecedor </label>
-    <select name="fornecedor" class="form-control">
-      <option>Fornecedor A</option>
-      <option>Fornecedor B</option>
-      <option>Fornecedor C</option>
-    </select>
-  </div>
-
-  <div style="text-align: right;">
-  	<button type="submit" id="botao" class="btn btn-sm">Cadastrar</button>
-  </div>
-
-
-</form>
-
-<h3>Atualização</h3>
-
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+<script src="https://kit.fontawesome.com/ff2489b726.js" crossorigin="anonymous"></script>
 </body>
-</html>  
+</html>
