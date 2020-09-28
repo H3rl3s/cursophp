@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Menu</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
 
@@ -23,6 +23,28 @@
         <h5 class="card-title">Lista de Produtos</h5>
         <p class="card-text">Verificação de Produtos.</p>
         <a href="listaprodutos.php" class="btn btn-primary">Listar Protudos</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container" style="margin-top: 10px">
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Adicionar Categoria</h5>
+        <p class="card-text">Adicionar uma Categoria.</p>
+        <a href="adicionar_categoria.php" class="btn btn-primary">Adicionar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Adicionar Fornecedor</h5>
+        <p class="card-text">Adicionar Fornecedor.</p>
+        <a href="adicionar_fornecedor.php" class="btn btn-primary">Adicionar</a>
       </div>
     </div>
   </div>
